@@ -8,11 +8,41 @@
 video {
     align-items: center;
     rotate: 180;
+    transform: rotate(-15deg);
     position: absolute;
-    top: -340px;
-    right: -100px;
+    top: -540px;
+    left: -100px;
     z-index: -1;
     height: auto;
     width: 200vw;
     object-position: cover;
+}
+
+.cta-button {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, 50%);
+    font-family: "Roboto", serif;
+}
+
+.cta-button button {
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    transition: all .3s ease;
+    font-size: 18px;
+}
+
+.cta-button button:hover {
+    border: 1px solid #D486F5;
+    background-color: #040014d0;
+}
+
+.cta-button i {
+    padding: 5px;
 }

@@ -5,6 +5,7 @@ import FooterComponent from './components/footer/FooterComponent.jsx';
 import './App.css';
 import './hero.css';
 import './index.css';
+import 'remixicon/fonts/remixicon.css';
 
 
 function App() {
