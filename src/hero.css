@@ -1,0 +1,17 @@
+.background {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: auto;
+}
+
+video {
+    rotate: 180;
+    position: absolute;
+    top: -340px;
+    left: 0;
+    z-index: -1;
+    height: auto;
+    width: 200vw;
+    object-position: cover;
+}
