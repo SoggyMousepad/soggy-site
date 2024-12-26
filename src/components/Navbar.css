@@ -1,0 +1,25 @@
+.navigation__bar {
+    text-align: center;
+    align-items: center;
+    background-color: #040014d0;
+    border: 2px solid #a866c5;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation__bar li, ul, a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.navigation__bar a {
+    font-family: "Roboto", serif;
+    color: white;
+}

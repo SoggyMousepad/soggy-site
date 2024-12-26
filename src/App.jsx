@@ -2,9 +2,11 @@ import { useState } from 'react'
 import { LinearGradient } from 'react-text-gradients';
 import Hero from './components/Hero.jsx';
 import FooterComponent from './components/footer/FooterComponent.jsx';
+import Navbar from './components/Navbar.jsx';
 import './App.css';
 import './hero.css';
 import './index.css';
+import './components/navbar.css';
 import 'remixicon/fonts/remixicon.css';
 
 
@@ -15,6 +17,7 @@ function App() {
     <main>
       <div className="flex flex-col h-[850px] gap-20">
       <Hero/>
+      <Navbar/>
       <div className="header__title">
                   <h1>
                     <LinearGradient gradient={['to bottom right', '#17acff, #ff68f0']}>
