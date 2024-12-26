@@ -36,6 +36,7 @@ video {
     color: white;
     transition: all .3s ease;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .cta-button button:hover {
