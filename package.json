@@ -1,7 +1,7 @@
 {
-  "homepage": "src/App.jsx",
+  "homepage": "https://soggymousepad.github.io/soggy-site/",
   "name": "soggy-site",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
