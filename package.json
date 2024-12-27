@@ -1,5 +1,5 @@
 {
-  "homepage": "soggymousepad.github.io/soggy-site",
+  "homepage": "src/App.jsx",
   "name": "soggy-site",
   "private": true,
   "version": "0.0.0",
