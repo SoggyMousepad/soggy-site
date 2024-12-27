@@ -1,7 +1,7 @@
 import ghpages from 'gh-pages';
 
 ghpages.publish('dist', {
-  branch: 'gh-pages',
+  branch: 'main',
   repo: 'https://github.com/SoggyMousepad/soggy-site.git',
 }, (err) => {
   if (err) {
