@@ -12,7 +12,7 @@ const Hero = () => {
             muted 
             loop
             className="video">
-                <source src='/blackhole.webm' type="video/webm" />
+                <source src='public/blackhole.webm' type="video/webm" />
             </video>
         </div>
         <div className="cta-button">
