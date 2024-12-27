@@ -6,7 +6,7 @@ const Hero = () => {
     return (
         <>
         <div className="background">
-        <div className="relative flex flex-col h-full w-full">
+        <div className="absolute flex flex-col h-full w-full">
             <video 
             autoPlay
             muted 

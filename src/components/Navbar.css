@@ -5,7 +5,7 @@
     border: 2px solid #a866c5;
     margin-top: 80px;
     padding: 20px;
-    border-radius: 50px;
+    border-radius: 60px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -22,4 +22,9 @@
 .navigation__bar a {
     font-family: "Roboto", serif;
     color: white;
+    transition: color 0.3s ease;
+}
+
+.navigation__bar a:hover {
+    color: #E59EFB;
 }

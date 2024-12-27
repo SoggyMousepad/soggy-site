@@ -4,14 +4,15 @@ function FooterComponent() {
             <div className="footer__links">
                 <div className="socials">
                     <ul className="socials__links">
-                        <li><a href="social">Twitter</a></li>
-                        <li><a href="social">Twitch</a></li>
-                        <li><a href="social">Discord Server</a></li>
+                        <li className="social"><a href="#">Twitter</a></li>
+                        <li className="social"><a href="#">Twitch</a></li>
+                        <li className="social"><a href="#">GitHub</a></li>
+                        <li className="social"><a href="#">Discord</a></li>
                     </ul>
                 </div>
             </div>
-            <div className="footer__title">
-                <h3>Soggymousepad &copy; 2024 | All rights reserved.</h3>
+            <div className="footer__copyright__title">
+                <h3>SoggyMousepad &copy; 2024 • All rights reserved.</h3>
             </div>
         </>
     );

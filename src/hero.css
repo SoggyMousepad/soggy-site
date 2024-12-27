@@ -8,14 +8,15 @@
 video {
     align-items: center;
     rotate: 180;
-    transform: rotate(-15deg);
-    position: absolute;
-    top: -540px;
-    left: -100px;
+    transform: rotate(-12deg);
+    position: fixed;
+    top: 0;
+    left: 450px;
     z-index: -1;
     height: auto;
-    width: 200vw;
     object-position: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .cta-button {
