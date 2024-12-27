@@ -6,8 +6,10 @@ import Navbar from './components/Navbar.jsx';
 import './App.css';
 import './hero.css';
 import './index.css';
+import './components/footer/footer.css';
 import './components/navbar.css';
 import 'remixicon/fonts/remixicon.css';
+import './Tailwindcss.css';
 
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
   return (
     <>
     <main>
-      <div className="flex flex-col h-[850px] gap-20">
+      <div className="flex flex-col min-h-screen">
       <Hero/>
       <Navbar/>
       <div className="header__title">
@@ -29,7 +31,9 @@ function App() {
               </div>
       </div>
     </main>
-    <FooterComponent/>
+    <footer>
+      <FooterComponent/>
+    </footer>
     </>
   )
 }

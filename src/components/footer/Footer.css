@@ -1,0 +1,23 @@
+footer {
+    background-color: #040014d0;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer__title h3 {
+    color: white;
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+}
+
+
+/* footer h3 {
+    margin-top: 500px;
+    font-size: 15px;
+    z-index: -1;
+    font-family: "Roboto", serif;
+    color: #313046;
+  } */
