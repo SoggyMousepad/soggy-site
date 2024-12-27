@@ -4,8 +4,7 @@ footer {
     padding: 20px;
     margin-top: auto;
     width: 100%;
-    border-top-right-radius: 80px;
-    border-top-left-radius: 80px;
+    border-top: 1px solid #841da362;
 }
 
 .footer__copyright__title h3 {
@@ -15,37 +14,66 @@ footer {
     font-size: 15px;
 }
 
-.footer__links {
-    margin-bottom: 10px;
+.footer__links__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
-.socials__links {
+.navigation__menu__item {
+    flex: 1; /* Ensure each section takes equal width */
+    padding: 0 20px; /* Add space between columns */
+}
+
+.footer__link__header {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #851ea5d8;
+    padding-bottom: 5px;
+}
+
+.footer__nav__links,
+.socials__links,
+.footer__contact__links {
     list-style: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
 }
 
-.socials__links li a {
-    color: #fff;
+.nav-item,
+.social,
+.contact-item {
+    margin-bottom: 10px; /* Space between each link */
+}
+
+.nav-item a,
+.social a,
+.contact-item a {
     text-decoration: none;
+    color: #ffffff59;
     font-size: 15px;
     transition: color 0.3s ease;
 }
 
-.socials__links li a:hover {
-    color: #E59EFB;
+.nav-item a:hover,
+.social a:hover,
+.contact-item a:hover {
+    color: #E59EFB; /* Hover effect */
 }
 
-.footer__title {
-    font-size: 14px;
-    margin-top: 15px;
-}
-
+/* Media query for mobile responsiveness */
 @media (max-width: 768px) {
+    .footer__links__navigation {
+        flex-direction: column; /* Stack the columns vertically on small screens */
+        align-items: center; /* Center the columns */
+    }
+
+    .navigation__menu__item {
+        flex: none; /* Remove equal width on small screens */
+        padding: 10px 0; /* Adjust padding for stacked layout */
+    }
+
     .socials__links {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack social links vertically */
+        align-items: center; /* Center social links */
     }
 }

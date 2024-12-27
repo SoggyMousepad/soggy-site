@@ -1,7 +1,7 @@
 .background {
     display: flex;
     flex-direction: column;
-    height:auto;
+    height: 100vh;
     width: auto;
 }
 
@@ -17,16 +17,22 @@ video {
     object-position: cover;
     height: 100%;
     width: 100%;
+    transition: all .3s ease;
 }
 
 .cta-button {
     text-align: center;
     align-items: center;
     position: absolute;
+    top: 38%;
+    left: 55%;
+    /* position:fixed;
     right: 50%;
     top: 50%;
-    transform: translate(50%, 50%);
+    transform: translate(50%, 50%); */
     font-family: "Roboto", serif;
+    background-color: #040014d0;
+    border-radius: 20px;
 }
 
 .cta-button button {
@@ -42,9 +48,27 @@ video {
 
 .cta-button button:hover {
     border: 1px solid #D486F5;
-    background-color: #040014d0;
+    background-color: #200231b0;
 }
 
 .cta-button i {
     padding: 5px;
+}
+
+@media (max-width: 1400px) {
+    .video {
+        left: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .video {
+        left: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+        left: 300px;
+    }
 }

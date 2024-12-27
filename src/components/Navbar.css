@@ -1,22 +1,35 @@
 .navigation__bar {
-    text-align: center;
     align-items: center;
+    text-align: center;
     background-color: #040014d0;
     border: 2px solid #a866c5;
-    margin-top: 80px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
     padding: 20px;
+    margin: 20px;
     border-radius: 60px;
-    position: absolute;
+    position: fixed;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    transition: all .3s ease;
 }
 
 .navigation__bar li, ul, a {
     list-style: none;
     text-decoration: none;
     display: flex;
-    gap: 30px;
     text-align: center;
+    align-items: center;
+}
+
+.navigation__bar li, ul {
+    gap: 30px;
+}
+
+.navigation__bar li i { 
+    font-size: 15px;
+    margin-right: 10px;
 }
 
 .navigation__bar a {
