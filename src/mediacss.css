@@ -1,0 +1,57 @@
+
+/* Screen size = 1400px */
+@media (max-width: 1400px) {
+    .video {
+        left: 400px;
+        transform: rotate(-12deg) scale(1.2);
+    }
+    .cta-button {
+        left: 30%;
+        top: 60%;
+        transform: translate(-10%, -60%);
+    }
+}
+
+
+/* Screen size = 1000px */
+@media (max-width: 1000px) {
+    .video {
+        left: 350px;
+        transform: rotate(-12deg) scale(1.5);
+    }
+}
+
+
+/* Screen size = 768px */
+@media (max-width: 768px) {
+    .video {
+        left: 280px;
+        transform: rotate(-12deg) scale(2);
+    }
+    .cta-button {
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+    .header__title {
+        text-align: center;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(-3%);
+    }
+    .footer__links__navigation {
+        flex-direction: column; /* Stack the columns vertically on small screens */
+        align-items: center; /* Center the columns */
+    }
+
+    .navigation__menu__item {
+        flex: none; /* Remove equal width on small screens */
+        padding: 15px 0; /* Adjust padding for stacked layout */
+    }
+
+    .socials__links {
+        flex-direction: row; /* Stack social links vertically */
+        align-items: center; /* Center social links */
+    }
+}
